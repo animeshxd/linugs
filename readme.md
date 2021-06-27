@@ -1,4 +1,4 @@
-
+### LinuxOne: This usually is caused by a system where /tmp is mounted noexec
 ```bash
 Error on LinuxOne: This usually is caused by a system where /tmp is mounted noexec. Please remount without noexec and run the upgrade again.
 ```  
@@ -33,4 +33,13 @@ E: Sub-process /usr/bin/dpkg returned an error code (1)
   ```bash
   sudo userdel systemd-timesync -f
   ```
-  
+### Failed to build pyzmq (termux)
+  ```
+  Failed to build pyzmq
+  ERROR: Could not build wheels for pyzmq which use PEP 517 and cannot be installed directly
+  ```
+  - solution
+    ```
+    pkg install libzmq
+    ```
+
