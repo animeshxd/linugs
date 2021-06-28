@@ -33,7 +33,7 @@ E: Sub-process /usr/bin/dpkg returned an error code (1)
   ```bash
   sudo userdel systemd-timesync -f
   ```
-### Failed to build pyzmq (termux)
+### PiP Failed to build pyzmq (termux)
   ```
   Failed to build pyzmq
   ERROR: Could not build wheels for pyzmq which use PEP 517 and cannot be installed directly
